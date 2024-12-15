@@ -52,7 +52,7 @@ def main():
         exit(1)
 
     files = find_files_matching_pattern(sys.argv[1], 
-        "*.mp4", "*.mkv", "*.avi", "*.mov", "*.wmv", "*.flv", "*.mpg", "*.mpeg")
+        "*.mp4", "*.mkv", "*.avi", "*.mov", "*.wmv", "*.flv", "*f4v", "*.mpg", "*.mpeg", "*.gif", "*.webm", "*.avi", "*.wmv", "*.yuv", "*.m4v", "*.3gp", "*.3g2")
 
     if "-v" in sys.argv or "--verbose" in sys.argv: 
         print()
